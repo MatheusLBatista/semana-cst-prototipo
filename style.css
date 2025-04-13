@@ -2,28 +2,35 @@
     padding: 0%;
     margin: 0%;
     font-family: "Open Sanz", sans-serif;
+    box-sizing: border-box;
 }
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Quicksand", sans-serif;
 }
 
 .menu {
-    background-color: #FFFFFF10;
     color: black;
-    height: 24px;
+    height: 56px;
     width: 100%;
-    
+    background-color: #ffffff80;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .menu_content{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 16px;
     list-style: none;
     align-items: center;
     justify-content: center;
-    padding: 16px;
+    padding: 8px;
 }
 
 .menu_content a {
@@ -31,8 +38,12 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit;
     font: bold;
     cursor: pointer;
+    padding: 16px;
 }
 
-.inscrever-se {
-    background-color: red;
+#inscrever-se {
+    background-color: #E74C3C;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
 }
