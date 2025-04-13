@@ -47,3 +47,22 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
     padding: 8px;
 }
+
+.info {
+    /* position: relative; */
+    background: url(images/image.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.info-texto{
+    background-color: #FFD20080;
+    width: 100vw;
+    padding: 40px;
+    padding-right: 64px;
+    text-align: right;
+}
