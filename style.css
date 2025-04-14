@@ -81,3 +81,45 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 100px;
     max-width: 300px;
 }
+
+.conteudo{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+    gap: 48px;
+}
+
+.info-evento > p {
+    padding: 16px 0;
+    line-height: 26px;
+}
+
+.programacao p, h3{
+    padding: 4px 0;
+}
+
+.colaboradores > img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 1px solid #2D3748;
+}
+
+.info-evento > .colaboradores {
+    max-width: 1200px;
+}
+
+.colaboradores {
+    padding: 24px 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+    gap: 4px;
+}
