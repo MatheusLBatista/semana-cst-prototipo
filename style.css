@@ -55,14 +55,26 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     height: 500px;
     display: flex;
-    align-items:center;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
     justify-content: center;
+    max-width: fit-content;
 }
 
-.info-texto{
+.box{
     background-color: #FFD20080;
-    width: 100vw;
-    padding: 40px;
-    padding-right: 64px;
+    padding-right: 72px;
     text-align: right;
+}
+
+.texto {
+    width: 100vw;
+    padding: 40px 100px;
+}
+
+.data {
+    padding: 30px;
+    margin-right: 100px;
+    max-width: 300px;
 }
