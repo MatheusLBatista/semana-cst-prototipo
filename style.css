@@ -8,7 +8,7 @@
 body, html {
     width: 100%;
     overflow-x: hidden;
-  }
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Quicksand", sans-serif;
@@ -90,13 +90,22 @@ h1, h2, h3, h4, h5, h6 {
     gap: 48px;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-evento {
+    padding: 32px 0;
+}
+
 .info-evento > p {
     padding: 16px 0;
     line-height: 26px;
 }
 
-.programacao p, h3{
-    padding: 4px 0;
+.programacao, .localizacao p, h3{
+    padding: 8px 0;
 }
 
 .colaboradores > img{
@@ -122,4 +131,11 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     padding: 0px 8px;
     gap: 4px;
+}
+
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
 }
