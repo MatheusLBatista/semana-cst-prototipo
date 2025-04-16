@@ -134,8 +134,14 @@ main{
 }
 
 .localizacao {
+    margin-top: 0%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.rodape{
+    height: 100px;
+    background-color: #2D3748;
 }
