@@ -83,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .conteudo{
-    display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px;
@@ -93,10 +92,6 @@ h1, h2, h3, h4, h5, h6 {
 main{
     display: flex;
     flex-wrap: wrap;
-}
-
-.info-evento {
-    padding: 32px 0;
 }
 
 .info-evento > p {
@@ -142,6 +137,17 @@ main{
 }
 
 .rodape{
-    height: 100px;
-    background-color: #2D3748;
+    margin: 0 auto;
+    height: 156px;
+    background-color: #2D374899;
+    max-width: 100%;
+}
+
+.logos{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logos img {
+    padding: 32px;
 }
