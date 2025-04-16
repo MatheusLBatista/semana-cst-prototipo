@@ -45,11 +45,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 16px;
 }
 
+.menu_content li:hover {
+    transform: scale(1.02);
+    text-decoration: underline;
+    transition: 0.3s;
+    text-decoration-thickness: 2px;
+}
+
 #inscrever-se {
     background-color: #E74C3C;
     color: white;
     border-radius: 5px;
     padding: 8px;
+    text-decoration: none;
 }
 
 .info {
@@ -143,11 +151,17 @@ main{
     max-width: 100%;
 }
 
+.rodape h3 {
+    padding-bottom: 16px;
+
+}
+
 .logos{
     width: 1200px;
     margin: 0 auto;
+    padding-left: 32px;
 }
 
 .logos img {
-    padding: 32px;
+    padding-right: 32px;
 }
